@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FIRE JUMP</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="fireJump.js"></script>
+  </head>
+
+  <body style="background-color: #d6b07a" onkeydown="jump(event)">
+    <h1>FIRE JUMP</h1>
+    <center>
+      <div class="box" >
+        <img src="doll.png" id="doll">
+        <h1 id="message" hidden>Game Over</h1>
+        <img src="Sonya-Swarm-Fire.ico" id="fire" class="hide">
+        <div class="score-board">
+          <h4>Your score</h4>
+          <div id="scoreBox">0</div>
+        </div>
+      </div>
+    </center>
+    <button type="button" class="start" onclick="fireStart()" value="fire">CLICK TO START</button>
+
+  </body>
+</html>
